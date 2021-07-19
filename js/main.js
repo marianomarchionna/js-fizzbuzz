@@ -5,12 +5,12 @@ var numTotali = 100;
 for(var i = 0; i < numTotali; i++){
     var num = i + 1;
     if (num % 3 == 0 && num % 5 == 0){
-        console.log('FizzBuzz');
+        document.getElementById('my_number').innerHTML += '<li>FizzBuzz</li>';
     } else if ((num % 3) == 0){
-        console.log('Fizz');
+        document.getElementById('my_number').innerHTML += '<li>Fizz</li>';
     } else if ((num % 5) == 0){
-        console.log('Buzz');
+        document.getElementById('my_number').innerHTML += '<li>Buzz</li>';
     } else {
-        console.log(num);
+        document.getElementById("my_number").innerHTML += '<li>' + num + '</li>';
     }
 }

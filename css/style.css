@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: red;
+    font-size: 1.4em;
+    font-weight: bolder;
+    padding: 5px;
+    border: 1px solid green;
+}
